@@ -1,0 +1,28 @@
+<div class="col-md-8 col-md-offset-2 wcontainer">
+  <div style="background:transparent !important" class="jumbotron text-center">
+    <h1>IEEE-CS VIT<br/>Design Upload</h1>
+  </div>
+  <div class="">
+    <form id="form_design_upload" class="form-horizontal dropzone self col-sm-8 col-sm-offset-2" role="form" enctype="multipart/form-data" method="POST" action="/upload">
+      <div class="dropzone-previews"></div>
+      <div class="form-group">
+        <label for="fieldName" class="col-sm-3 control-label">Name</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="fieldName" name="name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="fieldEmail" class="col-sm-3 control-label">Registration Number</label>
+        <div class="col-sm-6">
+          <input type="text" id="regid" class="form-control" required name="name">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-3 col-sm-4">
+          <button id="submit-all" type="submit" class="btn btn-secondary">Submit</button>
+        </div>
+      </div>
+    </form>
+    <script src="/js/main.js"></script>
+  </div>
+</div>
